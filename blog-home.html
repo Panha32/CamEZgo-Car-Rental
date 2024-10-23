@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-home</title>
+    <link rel="icon" href="assets/img/logo.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/plugin/animation/animate.min.css">
+    <link rel="stylesheet" href="assets/plugin/plyr/plyr.css">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container d-flex flex-column nav-contain">
+                <div class="row w-100 py-2">
+                    <div class="col-4 d-none justify-content-start align-items-center d-lg-flex">
+                        <ul class="navbar-nav d-flex">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fa-regular fa-paper-plane"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-brand col-12 col-lg-4">
+                        <a class="navbar-brand" href="homepage.html"><img src="assets/img/CamEZgo_logo.png"
+                                height="40px" class="" alt=""></a>
+                    </div>
+
+                    <div class="col-lg-4 nav-account d-flex justify-content-end align-items-center">
+                        <!-- Menu button - offcanvas -->
+                        <button class="btn d-block d-lg-none me-auto" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <ul class="navbar-nav d-flex justify-content-end align-items-center flex-row">
+                            <li class="nav-item position-relative">
+                                <a class="nav-link " href="wishlist.html">
+                                    <i class="bi bi-suit-heart"></i>
+                                    <span
+                                        class="badge bg-danger text-dark position-absolute top-0 p-1 rounded-5">9+</span>
+                                </a>
+                            </li>
+                            <li class="nav-item nav-noti position-relative" style="position: relative;">
+
+                                <a href="#" class="nav-link position-relative">
+                                    <i class="bi bi-bell"></i>
+                                    <span
+                                        class="badge bg-danger text-dark position-absolute top-0 p-1 rounded-5">9+</span>
+                                </a>
+                                <div class="dropdown-noti">
+                                    <div class="nav-clip-path"></div>
+                                    <div class="line-noti-hover"></div>
+                                    <div class="card">
+                                        <div class="card-header bg-white">
+                                            ការជូនដំណឹង <span class="badge text-bg-danger text-black">9+</span>
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <ul class="nav d-flex flex-column">
+                                                <li class="nav-item border-bottom">
+                                                    <a class="nav-link d-flex justify-content-center align-items-center py-2"
+                                                        href="car-sell-detail-home.html">
+                                                        <div class="d-flex justify-content-center align-items-center"
+                                                            style="width: 25%;">
+                                                            <div class="noti-dot-unread"></div>
+                                                            <div class="noti-profile"><img
+                                                                    src="assets/img/notification/CamEZgo_logo.jpg"
+                                                                    class="w-100 h-100 object-fit-cover rounded-5"
+                                                                    alt=""></div>
+                                                        </div>
+                                                        <div class="noti-list-des ps-3" style="width: 75%;">
+                                                            <small class="fw-bold">CamEZgo <span class="badge text-bg-secondary" style="font-size: 10px;">បញ្ចុះតម្លៃ</span></small>
+                                                            <p class=mb-0>ការផ្តល់ជូនពិសេស!!2024 MUSTANG..</p>
+                                                            <small class="text-secondary">៨នាទី</small>
+                                                        </div>
+                                                    </a>
+                                                </li>
+
+                                                <li class="nav-item border-bottom">
+                                                    <a class="nav-link d-flex justify-content-center align-items-center py-2"
+                                                        href="blog-detail-home.html">
+                                                        <div class="d-flex justify-content-center align-items-center"
+                                                            style="width: 25%;">
+                                                            <div class="noti-dot-unread"></div>
+                                                            <div class="noti-profile"><img
+                                                                    src="assets/img/notification/CamEZgo_logo.jpg"
+                                                                    class="w-100 h-100 object-fit-cover rounded-5"
+                                                                    alt=""></div>
+                                                        </div>
+                                                        <div class="noti-list-des ps-3" style="width: 75%;">
+                                                            <small class="fw-bold">CamEZgo <span class="badge" style="font-size: 10px; background-color: #5340ff;">ប្លុក</span></small>
+                                                            <p class=mb-0>គន្លឹះសំខាន់ៗក្នុងការជ្រើសរើសរថយន្តជួលដ៏ល្អឥតខ្ចោះ</p>
+                                                            <small class="text-secondary">១២នាទី</small>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item border-bottom">
+                                                    <a class="nav-link d-flex justify-content-center align-items-center py-2"
+                                                        href="car-rent-detail-home.html">
+                                                        <div class="d-flex justify-content-center align-items-center"
+                                                            style="width: 25%;">
+                                                            <div class="noti-dot-unread"></div>
+                                                            <div class="noti-profile"><img
+                                                                    src="assets/img/notification/CamEZgo_logo.jpg"
+                                                                    class="w-100 h-100 object-fit-cover rounded-5"
+                                                                    alt=""></div>
+                                                        </div>
+                                                        <div class="noti-list-des ps-3" style="width: 75%;">
+                                                            <small class="fw-bold">CamEZgo <span class="badge text-bg-secondary" style="font-size: 10px;">បញ្ចុះតម្លៃ</span></small>
+                                                            <p class=mb-0>ការផ្តល់ជូនពិសេស!! បញ្ចុះ10%</p>
+                                                            <small class="text-secondary">ម្សិលមិញ</small>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item d-flex justify-content-center align-items-center">
+                                                    <a href="notification.html" class="text-decoration-none py-2 " style="color: #5340ff;">
+                                                        មើលទាំងអស់<i class="fa-solid fa-arrow-right-long"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li class="nav-item link-acc dropdown position-relative">
+                                <a href="#" class="nav-link" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="assets/img/profile/userprofile.png" class="user-account" alt="">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </a>
+                                <ul class="drop-acc nav p-0 card">
+                                    <li class="border-bottom">
+                                        <a class="nav-link d-flex justify-content-start align-items-center top-round-5"
+                                            href="useraccount.html">
+                                            <img src="assets/img/profile/userprofile.png" class="img-fluid" alt="">
+                                            <p class="mb-0 ms-3 fw-bold">សុខ សុវណ្ណរាជ</p>
+                                        </a>
+                                    </li>
+                                    <div class="nav-clip-path"></div>
+
+                                    <li><a class="nav-link" href="useraccount.html"><i
+                                                class="bi bi-gear me-3"></i>ការកំណត់</a></li>
+                                    <li><a class="nav-link bottom-round-5" href="index.html"><i
+                                                class="bi bi-box-arrow-right me-3"></i>ចាកចេញ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="d-none d-lg-block" style="margin: 0; height: 2px; width: 100%;">
+                <div class="offcanvas-lg offcanvas-start py-2 navPage" tabindex="-1" id="navbarOffcanvas"
+                    aria-labelledby="navbarOffcanvasLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title m-auto ps-4" id="navbarOffcanvasLabel"><img
+                                src="assets/img/CamEZgo_logo.png" height="40px" alt=""></h5>
+                        <button type="button " class="btn-close" data-bs-dismiss="offcanvas"
+                            data-bs-target="#navbarOffcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav m-auto"> <!-- mb-2 mb-lg-0 -->
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="homepage.html">
+                                    <span><i class="bi bi-house-door"></i></span>
+                                    <span>ទំព័រដើម</span>
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative hover-nav-service d-lg-block d-none">
+                                <a class="nav-link" href="#">
+                                    <span><i class="bi bi-gear"></i></span>
+                                    <span>សេវាកម្ម</span>
+                                    <span><i class="bi bi-chevron-down"></i></span>
+                                </a>
+                                <div class="dropdown-service">
+                                    <div class="line-service-hover"></div>
+                                    <ul class="nav d-flex flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link top-round-5"
+                                                href="service-rent-home.html">ជួលរថយន្ត</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="driver-home.html">ជួលអ្នកបើកបរ</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="repair-service-home.html">ជួសជុលរថយន្ត</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link bottom-round-5" href="service-sell-home.html">លក់រថយន្ត</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </li>
+                            <!--  -->
+                            <!-- dropdow -->
+                            <div class="dropdown d-lg-none d-block offcanvas-drop-menu">
+                                <a class="btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span><i class="bi bi-gear"></i></span>
+                                    <span>សេវាកម្ម</span>
+                                    <span><i class="bi bi-chevron-down"></i></span>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item ps-5" href="service-rent-home.html">ជួលរថយន្ត</a>
+                                    </li>
+                                    <li><a class="dropdown-item ps-5" href="driver-home.html">ជួលអ្នកបើកបរ</a>
+                                    <li><a class="dropdown-item ps-5" href="repair-service-home.html">ជួសជុលរថយន្ត</a>
+                                    </li>
+                                    <li><a class="dropdown-item ps-5" href="service-sell-home.html">លក់រថយន្ត</a></li>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--  -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="promotion.html">
+                                    <span><i class="bi bi-tags"></i></span>
+                                    <span>ប្រូម៉ូសិន</span>
+                                </a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="career-home.html">
+                                    <i class="bi bi-briefcase"></i>
+                                    <span>ការងារ</span>
+                                </a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog-home.html">
+                                    <span><i class="bi bi-book"></i></span>
+                                    <span>ប្លុក</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item position-relative hover-nav-car-type d-lg-block d-none">
+                                <a class="nav-link" href="#">
+
+                                    <span><i class="bi bi-car-front"></i></span>
+                                    <span>ប្រភេទរថយន្ត</span>
+                                    <span><i class="bi bi-chevron-down"></i></span>
+                                </a>
+                                <div class="dropdown-car-type">
+                                    <div class="line-car-type-hover"></div>
+                                    <ul class="nav d-flex flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link top-round-5" href="car-rent-category-home.html">Sedan</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="car-rent-category-home.html">SUV</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="car-rent-category-home.html">Sport</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="car-rent-category-home.html">Pickup</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link bottom-round-5"
+                                                href="car-rent-category-home.html">Van</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- dropdow -->
+                            <div class="dropdown d-lg-none d-block offcanvas-drop-menu">
+                                <a class="btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span><i class="bi bi-car-front"></i></span>
+                                    <span>ប្រភេទរថយន្ត</span>
+                                    <span><i class="bi bi-chevron-down"></i></span>
+                                </a>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item ps-5" href="car-rent-category-home.html">Sedan</a></li>
+                                    <li><a class="dropdown-item ps-5" href="car-rent-category-home.html">SUV</a></li>
+                                    <li><a class="dropdown-item ps-5" href="car-rent-category-home.html">Sport</a></li>
+                                    <li><a class="dropdown-item ps-5" href="car-rent-category-home.html">Pickup</a></li>
+                                    <li><a class="dropdown-item ps-5" href="car-rent-category-home.html">Van</a></li>
+                                </ul>
+                            </div>
+                            <!--  -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us-home.html">
+                                    <span><i class="bi bi-people"></i></span>
+                                    <span>អំពីយើង</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact-us-home.html">
+                                    <span><i class="bi bi-telephone"></i></span>
+                                    <span>ទំនាក់ទំនង</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Buttton back to top -->
+    <button id="backToTop" class="btn " style="background-color: #5340ff;"><i class="fa-solid fa-arrow-up"></i></button>
+    
+    <main>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-lg-5 col-xl-4 pe-0 pe-xl-5 ">
+                    <div style="position: sticky; top: 100px;">
+                    <form action="" class="search-blog wow animate__animated animate__fadeIn">
+                        <input type="text" class="form-control" style="padding-left: 32px; box-shadow: none;" placeholder="ស្វែងរក">
+                        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </form>
+                    <div class="blog-category my-2 my-lg-5 wow animate__animated animate__fadeIn">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                              <a class="nav-link active" role="tab" aria-current="page" data-bs-toggle="tab" data-bs-target="#all-blogs" href="#">ទាំងអស់</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" role="tab" data-bs-target="#blog-rent" data-bs-toggle="tab" href="#">ជួលរថយន្ត</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" role="tab" data-bs-target="#blog-buy-sell" data-bs-toggle="tab" href="#">ទិញ និងលក់</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" role="tab" data-bs-target="#blog-fix" data-bs-toggle="tab" href="#">ថែទាំ និងជួសជុល</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" role="tab" data-bs-target="#blog-tech" data-bs-toggle="tab" href="#">បច្ចេកវិទ្យា</a>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="col-12 popular-blog d-none d-lg-block">
+                        <div class="card border-0" style="background-color: #F9F9FB;">
+                            <h5 class="my-3 wow animate__animated animate__fadeIn">ប្លុកថ្មីៗ</h5>
+                            <div class="card-body p-0 d-flex flex-column gap-5">
+                                <div class="popular-blog-list wow animate__animated animate__fadeIn">
+                                    <a href="blog-detail-home.html">
+                                        <div class="img">
+                                            <img src="assets/img/blog/car-checking-1.jpg" class="img-fluid" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="d-flex flex-column justify-content-between px-3">
+                                        <div>
+                                            <a href="blog-detail-home.html" class="text-decoration-none">
+                                                <span class="badge rounded-pill bg-main-clr">ជួលរថយន្ត</span>
+                                                <h6 class="my-2">អ្វីដែលអ្នកមិនដឹងអំពីការធានារ៉ាប់រងរថយន្តជួល</h6>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex justify-content-between popular-blog-date">
+                                            <span><i class="fa-regular fa-calendar me-1"></i>11 សីហា 2024</span>
+                                            <span><i class="fa-solid fa-eye me-1"></i>135 មើល</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-blog-list wow animate__animated animate__fadeIn">
+                                    <a href="blog-detail-home.html">
+                                        <div class="img">
+                                            <img src="assets/img/blog/choose-car-repair.jpg" class="img-fluid" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="d-flex flex-column justify-content-between px-3">
+                                        <div>
+                                            <a href="blog-detail-home.html" class="text-decoration-none">
+                                                <span class="badge rounded-pill bg-main-clr">ថែទាំ និងជួសជុល</span>
+                                                <h6 class="my-2">សារៈសំខាន់នៃការជ្រើសរើសសេវាកម្មជួសជុលរថយន្តដែលអាចទុកចិត្តបាន</h6>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex justify-content-between popular-blog-date">
+                                            <span><i class="fa-regular fa-calendar me-1"></i>02 សីហា 2024</span>
+                                            <span><i class="fa-solid fa-eye me-1"></i>285 មើល</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-blog-list wow animate__animated animate__fadeIn">
+                                    <a href="blog-detail-home.html">
+                                        <div class="img">
+                                            <img src="assets/img/blog/rent-or-buy.jpg" class="img-fluid" alt="">
+                                        </div>
+                                    </a>
+                                    <div class="d-flex flex-column justify-content-between px-3">
+                                        <div>
+                                            <a href="blog-detail-home.html" class="text-decoration-none">
+                                                <span class="badge rounded-pill bg-main-clr">ទិញ និងលក់</span>
+                                                <span class="badge rounded-pill bg-main-clr">ជួករថយន្ត</span>
+                                                <h6 class="my-2">គុណសម្បត្តិ និងគុណវិបត្តិនៃការជួលធៀបនឹងការទិញរថយន្ត</h6>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex justify-content-between popular-blog-date">
+                                            <span><i class="fa-regular fa-calendar me-1"></i>20 កក្កដា 2024</span>
+                                            <span><i class="fa-solid fa-eye me-1"></i>678 មើល</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-12 col-lg-7 col-xl-8">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="all-blogs" role="tabpanel" aria-labelledby="all-blogs" tabindex="0">
+                        <div class="container" >
+                            <div class="row g-0">
+                                <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                    <div class="card blog-card border-0">
+                                        <div class="blog-card-img position-relative">
+                                            <a href="blog-detail-home.html"><img src="assets/img/blog/woman-choosing-the-car.jpg"  alt=""></a>
+                                            <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>10 កក្កដា 2024</span></div>
+                                        </div> 
+                                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">គន្លឹះសំខាន់ៗក្នុងការជ្រើសរើសរថយន្តជួលដ៏ល្អឥតខ្ចោះ</h6></a>
+                                            </div>
+                                            <div>
+                                                <div class="blog-post-date">
+                                                    <span class="badge bg-main-clr">ជួលរថយន្ត</span>
+                                                    <span><i class="fa-solid fa-eye me-1"></i>265 មើល</span>
+                                                </div>
+                                                <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                    <div class="card blog-card border-0">
+                                        <div class="blog-card-img position-relative">
+                                            <a href="blog-detail-home.html"><img src="assets/img/blog/tip-car-repair.jpg"  alt=""></a>
+                                            <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>23 មេសា 2024</span></div>
+                                        </div> 
+                                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">គន្លឹះ​ថែទាំ​សំខាន់រ​ក្សា​ឡានរបស់​អ្នក​ឱ្យ​ស្ថិត​នៅ​ក្នុង​ស្ថានភាពល្អ</h6></a>
+                                            </div>
+                                            <div>
+                                                <div class="blog-post-date">
+                                                    <span class="badge bg-main-clr">ថែទាំ និងជួសជុល</span>
+                                                    <span><i class="fa-solid fa-eye me-1"></i>55 មើល</span>
+                                                </div>
+                                                <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                    <div class="card blog-card border-0">
+                                        <div class="blog-card-img position-relative">
+                                            <a href="blog-detail-home.html"><img src="assets/img/blog/car-issue.jpg"  alt=""></a>
+                                            <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>05 មករា 2024</span></div>
+                                        </div> 
+                                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">បញ្ហារថយន្តទូទៅដែលជួបញឹកញាប់ និងរបៀបជួសជុលរបស់វា</h6></a>
+                                            </div>
+                                            <div>
+                                                <div class="blog-post-date">
+                                                    <span class="badge bg-main-clr">ថែទាំ និងជួសជុល</span>
+                                                    <span><i class="fa-solid fa-eye me-1"></i>123 មើល</span>
+                                                </div>
+                                                <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                    <div class="card blog-card border-0">
+                                        <div class="blog-card-img position-relative">
+                                            <a href="blog-detail-home.html"><img src="assets/img/blog/driver-renting.jpg"  alt=""></a>
+                                            <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>23 មករា 2024</span></div>
+                                        </div> 
+                                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">គន្លឹះសំខាន់ៗសម្រាប់ការជួលអ្នកបើកបរផ្ទាល់ខ្លួន</h6></a>
+                                            </div>
+                                            <div>
+                                                <div class="blog-post-date">
+                                                    <span class="badge bg-main-clr">ជួលរថយន្ត</span>
+                                                    <span><i class="fa-solid fa-eye me-1"></i>231 មើល</span>
+                                                </div>
+                                                <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                    <div class="card blog-card border-0">
+                                        <div class="blog-card-img position-relative">
+                                            <a href="blog-detail-home.html"><img src="assets/img/blog/car-issue-1.jpg"  alt=""></a>
+                                            <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>29 កក្កដា 2023</span></div>
+                                        </div> 
+                                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">អ្វីដែលត្រូវធ្វើបើអ្នកមានគ្រោះថ្នាក់ជាមួយនឹងឡានដែលបានជួល</h6></a>
+                                            </div>
+                                            <div>
+                                                <div class="blog-post-date">
+                                                    <div>
+                                                        <span class="badge bg-main-clr">ជួលរថយន្ត</span>
+                                                        <span class="badge bg-main-clr">ថែទាំ និងជួសជុល</span>
+                                                    </div>
+                                                    <span><i class="fa-solid fa-eye me-1"></i>867 មើល</span>
+                                                </div>
+                                                <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                
+                                <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                    <div class="card blog-card border-0">
+                                        <div class="blog-card-img position-relative">
+                                            <a href="blog-detail-home.html"><img src="assets/img/blog/trip-1.jpg"  alt=""></a>
+                                            <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>29 វិច្ឆិកា 2023</span></div>
+                                        </div> 
+                                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">ព័ត៌មានក្នុងការស្នាក់នៅដោយផាសុកភាពក្នុងដំណើរកំសាន្ត</h6></a>
+                                            </div>
+                                            <div>
+                                                <div class="blog-post-date">
+                                                    <span class="badge bg-main-clr">ថែទាំ និងជួសជុល</span>
+                                                    <span><i class="fa-solid fa-eye me-1"></i>451 មើល</span>
+                                                </div>
+                                                <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                    <div class="card blog-card border-0">
+                                        <div class="blog-card-img position-relative">
+                                            <a href="blog-detail-home.html"><img src="assets/img/blog/car-insurance-1.jpg"  alt=""></a>
+                                            <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>02 តុលា 2023</span></div>
+                                        </div> 
+                                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">អ្វីដែលអ្នកមិនដឹងអំពីការធានារ៉ាប់រងរថយន្តជួល</h6></a>
+                                            </div>
+                                            <div>
+                                                <div class="blog-post-date">
+                                                    <span class="badge bg-main-clr">ជួលរថយន្ត</span>
+                                                    <span><i class="fa-solid fa-eye me-1"></i>24 មើល</span>
+                                                </div>
+                                                <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                    <div class="card blog-card border-0">
+                                        <div class="blog-card-img position-relative">
+                                            <a href="blog-detail-home.html"><img src="assets/img/blog/family-trip-car.jpg"  alt=""></a>
+                                            <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>10 មីនា 2024</span></div>
+                                        </div> 
+                                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">ជម្រើសជួលរថយន្តល្អបំផុតសម្រាប់គ្រួសារដែលមានកូនតូច</h6></a>
+                                            </div>
+                                            <div>
+                                                <div class="blog-post-date">
+                                                    <span class="badge bg-main-clr">ជួលរថយន្ត</span>
+                                                    <span><i class="fa-solid fa-eye me-1"></i>89 មើល</span>
+                                                </div>
+                                                <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                    <div class="card blog-card border-0">
+                                        <div class="blog-card-img position-relative">
+                                            <a href="blog-detail-home.html"><img src="assets/img/blog/car-checking.jpg"  alt=""></a>
+                                            <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>24 កក្កដា 2024</span></div>
+                                        </div> 
+                                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">របៀបវាយតម្លៃការពិនិត្យមើលរថយន្តជួលមុនពេលកក់</h6></a>
+                                            </div>
+                                            <div>
+                                                <div class="blog-post-date">
+                                                    <span class="badge bg-main-clr">ជួលរថយន្ត</span>
+                                                    <span><i class="fa-solid fa-eye me-1"></i>109 មើល</span>
+                                                </div>
+                                                <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                    <div class="card blog-card border-0">
+                                        <div class="blog-card-img position-relative">
+                                            <a href="blog-detail-home.html"><img src="assets/img/blog/car-showcase.png"  alt=""></a>
+                                            <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>11 កក្កដា 2024</span></div>
+                                        </div> 
+                                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">គុណសម្បត្តិ និងគុណវិបត្តិនៃប្រភេទរថយន្តផ្សេងៗគ្នា</h6></a>
+                                            </div>
+                                            <div>
+                                                <div class="blog-post-date">
+                                                    <div>
+                                                        <span class="badge bg-main-clr">ទិញ និងលក់</span>
+                                                        <span class="badge bg-main-clr">បច្ចេកវិទ្យា</span>
+                                                    </div>
+                                                    <span><i class="fa-solid fa-eye me-1"></i>207 មើល</span>
+                                                </div>
+                                                <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                    <div class="card blog-card border-0">
+                                        <div class="blog-card-img position-relative">
+                                            <a href="blog-detail-home.html"><img src="assets/img/blog/buy-car.jpg"  alt=""></a>
+                                            <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>05 សីហា 2024</span></div>
+                                        </div> 
+                                        <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">ស្វែងយល់ពីដំណើរការទិញរថយន្តនៅក្រុមហ៊ុនចែកចាយ</h6></a>
+                                            </div>
+                                            <div>
+                                                <div class="blog-post-date">
+                                                    <span class="badge bg-main-clr">ទិញ និងលក់</span>
+                                                    <span><i class="fa-solid fa-eye me-1"></i>450 មើល</span>
+                                                </div>
+                                                <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+        
+                        </div>
+
+                        <div class="col-12 mt-4 mb-4 mb-lg-0 d-flex justify-content-center align-items-center wow animate__animated animate__fadeInUp">
+                            <nav>
+                                <ul class="nav my-pagination">
+                                  <li class="nav-page-prev">
+                                    <a class="nav-link fw-bold" href="#">
+                                      <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-page">
+                                    <ul class="nav">
+                                        <li><a class="nav-link fw-semibold active" href="#">1</a></li>
+                                        <li><a class="nav-link fw-semibold" href="#">2</a></li>
+                                        <li><a class="nav-link fw-semibold" href="#">3</a></li>
+                                        <li><a class="nav-link fw-semibold" href="#">4</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-page-next">
+                                    <a class="nav-link fw-bold" href="#">
+                                      <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </nav>
+                        </div>
+                        </div>
+                        <div class="tab-pane fade" id="blog-rent" role="tabpanel" aria-labelledby="blog-rent" tabindex="0">
+                            <div class="container">
+                                <div class="row g-0" >
+                                    <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                        <div class="card blog-card border-0">
+                                            <div class="blog-card-img position-relative">
+                                                <a href="blog-detail-home.html"><img src="assets/img/blog/woman-choosing-the-car.jpg"  alt=""></a>
+                                                <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>10 កក្កដា 2024</span></div>
+                                            </div> 
+                                            <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                                <div>
+                                                    <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">គន្លឹះសំខាន់ៗក្នុងការជ្រើសរើសរថយន្តជួលដ៏ល្អឥតខ្ចោះ</h6></a>
+                                                </div>
+                                                <div>
+                                                    <div class="blog-post-date">
+                                                        <span class="badge bg-main-clr">ជួលរថយន្ត</span>
+                                                        <span><i class="fa-solid fa-eye me-1"></i>265 មើល</span>
+                                                    </div>
+                                                    <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                        <div class="card blog-card border-0">
+                                            <div class="blog-card-img position-relative">
+                                                <a href="blog-detail-home.html"><img src="assets/img/blog/car-checking.jpg"  alt=""></a>
+                                                <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>24 កក្កដា 2024</span></div>
+                                            </div> 
+                                            <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                                <div>
+                                                    <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">របៀបវាយតម្លៃការពិនិត្យមើលរថយន្តជួលមុនពេលកក់</h6></a>
+                                                </div>
+                                                <div>
+                                                    <div class="blog-post-date">
+                                                        <span class="badge bg-main-clr">ជួលរថយន្ត</span>
+                                                        <span><i class="fa-solid fa-eye me-1"></i>109 មើល</span>
+                                                    </div>
+                                                    <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                        <div class="card blog-card border-0">
+                                            <div class="blog-card-img position-relative">
+                                                <a href="blog-detail-home.html"><img src="assets/img/blog/family-trip-car.jpg"  alt=""></a>
+                                                <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>10 មីនា 2024</span></div>
+                                            </div> 
+                                            <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                                <div>
+                                                    <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">ជម្រើសជួលរថយន្តល្អបំផុតសម្រាប់គ្រួសារដែលមានកូនតូច</h6></a>
+                                                </div>
+                                                <div>
+                                                    <div class="blog-post-date">
+                                                        <span class="badge bg-main-clr">ជួលរថយន្ត</span>
+                                                        <span><i class="fa-solid fa-eye me-1"></i>89 មើល</span>
+                                                    </div>
+                                                    <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                        <div class="card blog-card border-0">
+                                            <div class="blog-card-img position-relative">
+                                                <a href="blog-detail-home.html"><img src="assets/img/blog/car-insurance-1.jpg"  alt=""></a>
+                                                <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>02 តុលា 2023</span></div>
+                                            </div> 
+                                            <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                                <div>
+                                                    <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">អ្វីដែលអ្នកមិនដឹងអំពីការធានារ៉ាប់រងរថយន្តជួល</h6></a>
+                                                </div>
+                                                <div>
+                                                    <div class="blog-post-date">
+                                                        <span class="badge bg-main-clr">ជួលរថយន្ត</span>
+                                                        <span><i class="fa-solid fa-eye me-1"></i>24 មើល</span>
+                                                    </div>
+                                                    <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                        <div class="card blog-card border-0">
+                                            <div class="blog-card-img position-relative">
+                                                <a href="blog-detail-home.html"><img src="assets/img/blog/car-issue-1.jpg"  alt=""></a>
+                                                <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>29 កក្កដា 2024</span></div>
+                                            </div> 
+                                            <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                                <div>
+                                                    <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">អ្វីដែលត្រូវធ្វើបើអ្នកមានគ្រោះថ្នាក់ជាមួយនឹងឡានដែលបានជួល</h6></a>
+                                                </div>
+                                                <div>
+                                                    <div class="blog-post-date">
+                                                        <div>
+                                                            <span class="badge bg-main-clr">ជួលរថយន្ត</span>
+                                                            <span class="badge bg-main-clr">ថែទាំ និងជួសជុល</span>
+                                                        </div>
+                                                        <span><i class="fa-solid fa-eye me-1"></i>876 មើល</span>
+                                                    </div>
+                                                    <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                        <div class="card blog-card border-0">
+                                            <div class="blog-card-img position-relative">
+                                                <a href="blog-detail-home.html"><img src="assets/img/blog/driver-renting.jpg"  alt=""></a>
+                                                <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>23 មករា 2024</span></div>
+                                            </div> 
+                                            <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                                <div>
+                                                    <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">គន្លឹះសំខាន់ៗសម្រាប់ការជួលអ្នកបើកបរផ្ទាល់ខ្លួន</h6></a>
+                                                </div>
+                                                <div>
+                                                    <div class="blog-post-date">
+                                                        <span class="badge bg-main-clr">ជួលរថយន្ត</span>
+                                                        <span><i class="fa-solid fa-eye me-1"></i>231 មើល</span>
+                                                    </div>
+                                                    <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+            
+                            </div>
+                            <div class="col-12 mt-4 mb-4 mb-lg-0 d-flex justify-content-center align-items-center wow animate__animated animate__fadeInUp">
+                                <nav>
+                                    <ul class="nav my-pagination">
+                                      <li class="nav-page-prev">
+                                        <a class="nav-link fw-bold" href="#">
+                                          <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                      </li>
+                                      <li class="nav-page">
+                                        <ul class="nav">
+                                            <li><a class="nav-link fw-semibold active" href="#">1</a></li>
+                                            <li><a class="nav-link fw-semibold" href="#">2</a></li>
+                                            <li><a class="nav-link fw-semibold" href="#">3</a></li>
+                                            <li><a class="nav-link fw-semibold" href="#">4</a></li>
+                                        </ul>
+                                      </li>
+                                      <li class="nav-page-next">
+                                        <a class="nav-link fw-bold" href="#">
+                                          <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </nav>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="blog-buy-sell" role="tabpanel" aria-labelledby="blog-buy-sell" tabindex="0">
+                            <div class="container">
+                                <div class="row g-0" >
+                                    <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                        <div class="card blog-card border-0">
+                                            <div class="blog-card-img position-relative">
+                                                <a href="blog-detail-home.html"><img src="assets/img/blog/buy-car.jpg"  alt=""></a>
+                                                <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>05 សីហា 2024</span></div>
+                                            </div> 
+                                            <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                                <div>
+                                                    <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">ស្វែងយល់ពីដំណើរការទិញរថយន្តនៅក្រុមហ៊ុនចែកចាយ</h6></a>
+                                                </div>
+                                                <div>
+                                                    <div class="blog-post-date">
+                                                        <span class="badge bg-main-clr">ទិញ និងលក់</span>
+                                                        <span><i class="fa-solid fa-eye me-1"></i>450 មើល</span>
+                                                    </div>
+                                                    <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                        <div class="card blog-card border-0">
+                                            <div class="blog-card-img position-relative">
+                                                <a href="blog-detail-home.html"><img src="assets/img/blog/car-showcase.png"  alt=""></a>
+                                                <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>11 កក្កដា 2024</span></div>
+                                            </div> 
+                                            <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                                <div>
+                                                    <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">គុណសម្បត្តិ និងគុណវិបត្តិនៃប្រភេទរថយន្តផ្សេងៗគ្នា</h6></a>
+                                                </div>
+                                                <div>
+                                                    <div class="blog-post-date">
+                                                        <div>
+                                                            <span class="badge bg-main-clr">ទិញ និងលក់</span>
+                                                            <span class="badge bg-main-clr">បច្ចេកវិទ្យា</span>
+                                                        </div>
+                                                        <span><i class="fa-solid fa-eye me-1"></i>207 មើល</span>
+                                                    </div>
+                                                    <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
+                                </div>
+            
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="blog-fix" role="tabpanel" aria-labelledby="blog-fix" tabindex="0">
+                            <div class="container">
+                                <div class="row g-0" >
+                                    <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                        <div class="card blog-card border-0">
+                                            <div class="blog-card-img position-relative">
+                                                <a href="blog-detail-home.html"><img src="assets/img/blog/tip-car-repair.jpg"  alt=""></a>
+                                                <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>23 មេសា 2024</span></div>
+                                            </div> 
+                                            <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                                <div>
+                                                    <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">គន្លឹះ​ថែទាំ​សំខាន់រ​ក្សា​ឡានរបស់​អ្នក​ឱ្យ​ស្ថិត​នៅ​ក្នុង​ស្ថានភាពល្អ</h6></a>
+                                                </div>
+                                                <div>
+                                                    <div class="blog-post-date">
+                                                        <span class="badge bg-main-clr">ថែទាំ និងជួសជុល</span>
+                                                        <span><i class="fa-solid fa-eye me-1"></i>55 មើល</span>
+                                                    </div>
+                                                    <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                        <div class="card blog-card border-0">
+                                            <div class="blog-card-img position-relative">
+                                                <a href="blog-detail-home.html"><img src="assets/img/blog/trip-1.jpg"  alt=""></a>
+                                                <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>29 វិច្ឆិកា 2023</span></div>
+                                            </div> 
+                                            <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                                <div>
+                                                    <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">ព័ត៌មានក្នុងការស្នាក់នៅដោយផាសុកភាពក្នុងដំណើរកំសាន្ត</h6></a>
+                                                </div>
+                                                <div>
+                                                    <div class="blog-post-date">
+                                                        <span class="badge bg-main-clr">ថែទាំ និងជួសជុល</span>
+                                                        <span><i class="fa-solid fa-eye me-1"></i>៤៥១ មើល</span>
+                                                    </div>
+                                                    <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                        <div class="card blog-card border-0">
+                                            <div class="blog-card-img position-relative">
+                                                <a href="blog-detail-home.html"><img src="assets/img/blog/car-issue-1.jpg"  alt=""></a>
+                                                <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>29 កក្កដា 2024</span></div>
+                                            </div> 
+                                            <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                                <div>
+                                                    <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">អ្វីដែលត្រូវធ្វើបើអ្នកមានគ្រោះថ្នាក់ជាមួយនឹងឡានដែលបានជួល</h6></a>
+                                                </div>
+                                                <div>
+                                                    <div class="blog-post-date">
+                                                        <div>
+                                                            <span class="badge bg-main-clr">ជួលរថយន្ត</span>
+                                                            <span class="badge bg-main-clr">ថែទាំ និងជួសជុល</span>
+                                                        </div>
+                                                        <span><i class="fa-solid fa-eye me-1"></i>867 មើល</span>
+                                                    </div>
+                                                    <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                        <div class="card blog-card border-0">
+                                            <div class="blog-card-img position-relative">
+                                                <a href="blog-detail-home.html"><img src="assets/img/blog/car-issue.jpg"  alt=""></a>
+                                                <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>05 មករា 2024</span></div>
+                                            </div> 
+                                            <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                                <div>
+                                                    <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">បញ្ហារថយន្តទូទៅដែលជួបញឹកញាប់ និងរបៀបជួសជុលរបស់វា</h6></a>
+                                                </div>
+                                                <div>
+                                                    <div class="blog-post-date">
+                                                        <span class="badge bg-main-clr">ថែទាំ និងជួសជុល</span>
+                                                        <span><i class="fa-solid fa-eye me-1"></i>123 មើល</span>
+                                                    </div>
+                                                    <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
+                                </div>
+            
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="blog-tech" role="tabpanel" aria-labelledby="blog-tech" tabindex="0">
+                            <div class="container">
+                                <div class="row g-0" >
+                                    <div class="col-12 col-sm-6 col-xl-4 px-5 py-2 px-sm-2 py-sm-1 px-md-4 p-lg-2   ">
+                                        <div class="card blog-card border-0">
+                                            <div class="blog-card-img position-relative">
+                                                <a href="blog-detail-home.html"><img src="assets/img/blog/car-showcase.png"  alt=""></a>
+                                                <div class="clip-path ps-1" style="font-size: 14px;"><span class="badge text-bg-secondary"><i class="fa-regular fa-calendar me-1"></i>11 កក្កដា 2024</span></div>
+                                            </div> 
+                                            <div class="card-body p-0 d-flex flex-column justify-content-between">
+                                                <div>
+                                                    <a href="blog-detail-home.html" class="text-decoration-none"><h6 class="card-title py-3">គុណសម្បត្តិ និងគុណវិបត្តិនៃប្រភេទរថយន្តផ្សេងៗគ្នា</h6></a>
+                                                </div>
+                                                <div>
+                                                    <div class="blog-post-date">
+                                                        <div>
+                                                            <span class="badge bg-main-clr">ទិញ និងលក់</span>
+                                                            <span class="badge bg-main-clr">បច្ចេកវិទ្យា</span>
+                                                        </div>
+                                                        <span><i class="fa-solid fa-eye me-1"></i>207 មើល</span>
+                                                    </div>
+                                                    <a href="blog-detail-home.html" class="btn w-100">អានបន្ថែម<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
+                                </div>
+            
+                            </div>
+                        </div>
+                        
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container pb-3">
+            <div class="row">
+                <div
+                    class="col-12 py-5 d-flex justify-content-center align-items-center justify-content-lg-start align-items-lg-start">
+                    <div class="footer-brand">
+                        <a class="navbar-brand" href="homepage.html"><img src="assets/img/CamEZgo_logo.png"
+                                height="60px" class="" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 pb-4 pb-lg-0">
+                    <h5 class="fw-bold">អំពីយើង</h5>
+                    <p>គោលបំណងផ្តល់នូវសេវាកម្មទាក់ទងនឹងការជួលរថយន្ត ដែលមានតម្លៃសមរម្យ មានផាសុខភាព
+                        និងមានជំរើសច្រើនក្នុងការជ្រើសរើសទៅតាមតម្រូវការ</p>
+                    <ul class="navbar-nav d-flex flex-row">
+                        <li class="nav-item">
+                            <a href="term-condition-home.html" class="nav-link">លក្ខខណ្ឌ​</a>
+                        </li>
+                        <small class="mt-2">&nbsp | &nbsp</small>
+                        <li class="nav-item">
+                            <a href="privacy-policy-home.html" class="nav-link">គោលការណ៍​​ឯកជនភាព</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 d-none d-lg-block"></div>
+                <div class="col-12 col-lg-6  mx-auto mx-lg-0">
+                    <div class="row">
+                        <div class="col-6 col-sm-4">
+                            <h5 class="fw-bold pt-4 pt-md-0">តំណភ្ជាប់</h5>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="about-us-home.html" class="nav-link">អំពីយើង</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="promotion.html" class="nav-link">ប្រូម៉ូសិន</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="career-home.html" class="nav-link">ការងារ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="blog-home.html" class="nav-link">ប្លុក</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact-us-home.html" class="nav-link">ទំនាក់ទំនង</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <h5 class="fw-bold pt-4 pt-md-0">សេវាកម្ម</h5>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="service-rent-home.html" class="nav-link">ជួលរថយន្ត</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="driver-home.html" class="nav-link">ជួលអ្នកបើកបរ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="repair-service-home.html" class="nav-link">ជួសជុលរថយន្ត</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="service-sell-home.html" class="nav-link">លក់រថយន្ត</a>
+                                </li>
+                            
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-4 pe-4 pe-lg-0">
+                            <h5 class="fw-bold pt-4 pt-md-0">ទំនាក់ទំនង</h5>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link"><span><i
+                                                class="bi bi-pin-map me-2"></i>ភ្នំពេញ</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link"><span><i class="bi bi-telephone me-2"></i>+855 23 99
+                                            999</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link w-100"><span><i
+                                                class="bi bi-envelope-open me-2"></i>CamEZgo@info.com</span></a>
+                                </li>
+                            </ul>
+                            <div class="footer-social-media">
+                                <ul class="navbar-nav d-flex flex-row">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">
+                                                    <i class="fa-brands fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                        </div>
+                                        <div class="col-3">
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">
+                                                    <i class="fa-brands fa-x-twitter"></i>
+                                                </a>
+                                            </li>
+                                        </div>
+                                        <div class="col-3">
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">
+                                                    <i class="fa-brands fa-linkedin-in"></i>
+                                                </a>
+                                            </li>
+                                        </div>
+                                        <div class="col-3">
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">
+                                                    <i class="fa-regular fa-paper-plane"></i>
+                                                </a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="mt-5">
+                <div class="col-6 d-flex ">
+
+                    <div class="d-flex justify-content-center align-items-center">
+                        <p class="mb-0 text-white">រក្សាសិទ្ធដោយ CamEZgo</p>
+                    </div>
+
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <div class="footer-app-link">
+                        <div class="row gx-3">
+                            <div class="col-6">
+                                <a href="#"><img src="assets/img/download-app/app-store.svg" class="img-fluid"
+                                        alt=""></a>
+                            </div>
+                            <div class="col-6">
+                                <a href="#"><img src="assets/img/download-app/play-store.svg" class="img-fluid"
+                                        alt=""></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/plugin/wowjs/wow.min.js"></script>
+    <script src="assets/plugin/font-awsome/all.min.js"></script>
+    <script>
+        new WOW().init();
+
+        // Back to top and Menu Sticky
+        window.onscroll = function () {
+        stickyNavbar();
+        };
+        var navbar = document.querySelector(".navPage");
+        var sticky = navbar.offsetTop;
+        var backToTop = document.getElementById("backToTop");
+
+        function stickyNavbar() {
+        if (window.pageYOffset > sticky) {
+            navbar.classList.add("sticky");
+            backToTop.style.display = "block";
+        } else {
+            navbar.classList.remove("sticky");
+            backToTop.style.display = "none";
+        }
+        }
+
+        backToTop.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+    <script>
+        document.querySelectorAll('footer .nav-item .nav-link').forEach(function(link) {
+            const text = link.innerHTML;
+            link.innerHTML = `<span>${text}</span>`;
+        });
+    </script>
+</body>
+</html>

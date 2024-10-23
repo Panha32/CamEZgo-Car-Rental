@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>បង្កើតគណនី</title>
+    <link rel="icon" href="assets/img/logo.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet"
+        href="assets/css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/plugin/animation/animate.min.css">
+</head>
+
+
+<body>
+    <main>
+        <section id="sign-in" class="d-flex align-items-center"
+            style="background-image: url(assets/img/profile/car-background.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-xxl-4  col-12 mx-auto rounded-1 h-576 animate__animated animate__zoomIn"
+                        style="background-color: rgba(255, 255, 255, 0.5);">
+                        <div class="card border-0 bg-transparent">
+                            <div class="card-body">
+                                <form id="signInForm" action="3-more-step.html" method="post" class="needs-validation"
+                                    novalidate>
+                                    <a href="index.html"
+                                        class="d-flex justify-content-center align-items-center mt-3"><img
+                                            src="assets/img/CamEZgo_logo.png" height="40px" alt=""></a>
+                                    <h4 class="my-3 fw-bold text-center">សូមស្វាគមន៍មកកាន់ CamEZgo</h4>
+                                    <div class="col-12 my-2">
+                                        <ul class="nav">
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-toggle="tab" href="sign-in.html">ចូលគណនី</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-toggle="tab" href="create-account.html">
+                                                    បង្កើតគណនី</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="mb-3 fs-placeholder mt-4">
+                                        <label for="phone" class="form-label">លេខទូរស័ព្ទ
+                                            <span class="text-danger"> *</span>
+                                        </label>
+                                        <input type="tel" class="form-control" id="phone" name="txtphone"
+                                            placeholder="លេខទូរស័ព្ទ" aria-label="phone" required value="023 777 099">
+                                        <div class="invalid-feedback">
+                                            សូមបំពេញលេខទូរស័ព្ទរបស់អ្នក!
+                                        </div>
+                                    </div>
+                                    <div class="mb-3 position-relative fs-placeholder">
+                                        <label for="email" class="form-label mb-1">អ៊ីមែល
+                                            <span class="text-danger"> *</span>
+                                        </label>
+                                        <input type="email" class="form-control" id="email" name="txtemail"
+                                            placeholder="អ៊ីមែល" aria-label="Email" required value="camezgo@gmail.com">
+                                        <div class="invalid-feedback">
+                                            សូមបំពេញអ៊ីមែលរបស់អ្នក!
+                                        </div>
+                                    </div>
+                                    <div class="mb-3 position-relative fs-placeholder">
+                                        <label for="password4" class="form-label">ពាក្យសម្ងាត់
+                                            <span class="text-danger"> *</span>
+                                        </label>
+                                        <input type="password" class="form-control" id="password4" name="txtpass"
+                                            placeholder="ពាក្យសម្ងាត់" aria-label="password" required
+                                            value="sdfghj12345cv">
+                                        <div id="password-icon4" onclick="showHide4()"></div>
+                                        <div class="invalid-feedback">
+                                            សូមបំពេញពាក្យសម្ងាត់របស់អ្នក!
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck"
+                                                 checked>
+                                            <label class="form-check-label fw-medium" for="invalidCheck">
+                                                យល់ព្រមតាម<a href="term-condition.html" class="forgot text-career">
+                                                    លក្ខខណ្ឌ</a>
+                                            </label>
+                                            <div class="invalid-feedback">
+                                                អ្នកត្រូវតែយល់ព្រមមុនពេលដាក់ស្នើ!
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-2">
+                                        <a href="homepage.html" class="btn btn-start-now d-block" id="submitBtn"
+                                            type="submit">បង្កើតគណនី</a>
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <div class="line-root">
+                                            <span class="fw-medium">ឬបង្កើតគណនីមួយ</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 d-flex justify-content-center mb-2">
+                                        <a href="log-with-google-account.html" class="btn-google btn me-3" type="button">
+                                            <img style="width: 20px; height: 20px;"
+                                                src="assets/img/icon/form/google.png" alt="">
+
+                                        </a>
+                                        <a href="log-with-facebook-account.html" class="btn-facebook btn btn-outline-primary"
+                                            type="button">
+                                            <img style="width: 20px; height: 20px;"
+                                                src="assets/img/icon/form/facebook.png" alt="">
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- <img src="Screenshot 2024-07-21 152323.jpg" alt=""> -->
+</body>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/plugin/font-awsome/all.min.js"></script>
+<script>
+    (() => {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+        })
+        document.getElementById('submitBtn').addEventListener('click', function (event) {
+
+            event.preventDefault();
+            const form = document.getElementById('signInForm');
+            if (form.checkValidity()) {
+                // Redirect to another page if form is valid
+                window.location.href = 'homepage.html';
+            } else {
+                form.classList.add('was-validated');
+            }
+        });
+    })()
+    let password1 = document.getElementById('password4');
+    let icon1 = document.getElementById('password-icon4');
+    let password2 = document.getElementById('password4');
+    let icon2 = document.getElementById('password-icon4');
+
+    function showHide4() {
+        if (password1.type === 'password') {
+            password1.setAttribute('type', 'text');
+            icon1.classList.add('hide');
+        } else {
+            password1.setAttribute('type', 'password');
+            icon1.classList.remove('hide');
+        }
+    }
+
+
+    function showHide4() {
+        if (password2.type === 'password') {
+            password2.setAttribute('type', 'text');
+            icon2.classList.add('hide');
+        } else {
+            password2.setAttribute('type', 'password');
+            icon2.classList.remove('hide');
+        }
+    }
+</script>
+<script>
+    document.querySelectorAll('footer .nav-item .nav-link').forEach(function(link) {
+        const text = link.innerHTML;
+        link.innerHTML = `<span>${text}</span>`;
+    });
+</script>
+</html>
