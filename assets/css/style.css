@@ -3520,6 +3520,17 @@ header nav .nav-link:hover {
   animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
 }
 
+.qr-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+canvas {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
 @keyframes stroke {
   100% {
     stroke-dashoffset: 0;
