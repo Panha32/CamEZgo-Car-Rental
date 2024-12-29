@@ -217,7 +217,7 @@
                                 <h4 class="fw-bold mb-4 pt-3 ps-4 ps-md-0 wow animate__animated animate__fadeIn">ទំនាក់ទំនងពួកយើង</h4>
                                 <div class="row">
                                     <div class="col-12">
-                                        <div class="contact-us-list d-flex">
+                                        <div class="contact-us-list d-flex position-relative">
                                             <div class="wow animate__animated animate__zoomIn">
                                                 <i class="bi bi-pin-map"></i>
                                             </div>
@@ -225,10 +225,17 @@
                                                 <h5>ទីតាំង</h5>
                                                 <p>ភ្នំពេញ</p>
                                             </div>
+                                            <!-- Button trigger modal -->
+                                            <div class="boxButtonContact position-absolute">
+                                                <button type="button" class="btn p-0 btnContact text-primary" data-bs-toggle="modal" data-bs-target="#locationModal">
+                                                    Show QR Code
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
+                                    <hr>
                                     <div class="col-12">
-                                        <div class="contact-us-list d-flex">
+                                        <div class="contact-us-list d-flex position-relative">
                                             <div class="wow animate__animated animate__zoomIn">
                                                 <i class="bi bi-telephone"></i>
                                             </div>
@@ -236,16 +243,29 @@
                                                 <h5>លេខទូរស័ព្ទ</h5>
                                                 <p>+855 23 99 999</p>
                                             </div>
+                                            <!-- Button trigger modal -->
+                                            <div class="boxButtonContact position-absolute">
+                                                <button type="button" class="btn p-0 btnContact text-primary" data-bs-toggle="modal" data-bs-target="#phoneModal">
+                                                    Show QR Code
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
+                                    <hr>
                                     <div class="col-12">
-                                        <div class="contact-us-list d-flex">
+                                        <div class="contact-us-list d-flex position-relative">
                                             <div class="wow animate__animated animate__zoomIn">
                                                 <i class="bi bi-envelope-open"></i>
                                             </div>
                                             <div class="wow animate__animated animate__fadeIn">
                                                 <h5>អ៊ីម៉ែល</h5>
                                                 <p>CamEZgo@info.com</p>
+                                            </div>
+                                            <!-- Button trigger modal -->
+                                            <div class="boxButtonContact position-absolute">
+                                                <button type="button" class="btn p-0 btnContact text-primary" data-bs-toggle="modal" data-bs-target="#emailModal">
+                                                    Show QR Code
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -286,7 +306,6 @@
                                         </ul>   
                                     </div>
                                 </div>
-            
                             </div>
                             <div class="col-12 col-md-7 order-1 order-md-2 form-contact-us wow animate__animated animate__slideInUp">
                                 <div class="form-contact py-5" style="border: 1px solid #becaff;">
@@ -335,19 +354,60 @@
                             </div>
                             <div class="col-12 py-4 map order-3 wow animate__animated animate__fadeInUp" style="height: 400px;" >
                                 <iframe 
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.718531970692!2d104.88750717588984!3d11.572024244013562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519e0c9b2109%3A0x8b8d35d80b920ffc!2sANT%20Technology%20Training%20School!5e0!3m2!1sen!2skh!4v1709192856127!5m2!1sen!2skh"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.7730355466315!2d104.89207549999999!3d11.568121799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x20138e822e434660!2sRoyal%20University%20of%20Phnom%20Penh!5e0!3m2!1sen!2skh!4v1735483269781!5m2!1sen!2skh"
                                     width="100%" height="100%" class="rounded-2" style="border:0;" allowfullscreen="" loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
-                            
-            
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Modal -->
+        <div class="modal fade" id="locationModal" tabindex="-1" aria-labelledby="locationModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="location-qr" class="qr-container"></div>
+                        <h5 class="fw-bold text-center mt-3 mb-0">Scan this QR code to access the <span class="text-primary">location</span> details</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!-- Modal -->
+        <div class="modal fade" id="phoneModal" tabindex="-1" aria-labelledby="phoneModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="phone-qr" class="qr-container"></div>
+                        <h5 class="fw-bold text-center mt-3 mb-0">Scan this QR code to get the <span class="text-primary">phone number</span> instantly</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="email-qr" class="qr-container"></div>
+                        <h5 class="fw-bold text-center mt-3 mb-0">Scan this QR code to view the <span class="text-primary">email address</span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
         
     </main>
 
@@ -499,6 +559,7 @@
     
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/qrCodeContact.js"></script>
     <script src="assets/plugin/font-awsome/all.min.js"></script>
     <script src="assets/plugin/wowjs/wow.min.js"></script>
     <script src="assets/plugin/qrcode/qrcode.min.js"></script>
